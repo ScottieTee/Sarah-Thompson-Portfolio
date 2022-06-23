@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import logo from "../assets/logo.png";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import {HiOutlineMail} from 'react-icons/hi';
+import {BsFillPersonLinesFill} from 'react-icons/bs';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -29,7 +31,12 @@ const Navbar = () => {
       </div>
 
       {/* Mobile */}
-      <ul className={!nav ? 'hidden' : "absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-[rgb(16,20,26)]"}>
+      <ul
+        className={
+          !nav
+            ? "hidden"
+            : "absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-[rgb(16,20,26)]"
+        }>
         <li className="py-6 text-4xl">Home</li>
         <li className="py-6 text-4xl">About</li>
         <li className="py-6 text-4xl">Skills</li>
@@ -38,7 +45,22 @@ const Navbar = () => {
       </ul>
 
       {/* Social Icons */}
-      <div className="hidden"></div>
+      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+        <ul>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[rgb(10,102,194)]">
+            <a className="flex justify-between items-center w-full text-gray-300" href="#">LinkedIn<FaLinkedin size={30}/></a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
+            <a className="flex justify-between items-center w-full text-gray-300" href="#">Github<FaGithub size={30}/></a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
+            <a className="flex justify-between items-center w-full text-gray-300" href="#">Email<HiOutlineMail size={30}/></a>
+          </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
+            <a className="flex justify-between items-center w-full text-gray-300" href="#">Resume<BsFillPersonLinesFill size={30}/></a>
+          </li>
+        </ul>
+      </div>
 
     </div>
   );
