@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/logo.png";
+import oliverlogo from "../assets/oliverlogo.png";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
@@ -12,7 +12,7 @@ const Navbar = () => {
     return (
         <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[rgb(16,20,26)] text-gray-300">
             <div>
-                <img src={logo} alt="logo" style={{ width: "75px" }} />
+                <img src={oliverlogo} alt="logo" style={{ width: "75px" }} />
             </div>
 
 
