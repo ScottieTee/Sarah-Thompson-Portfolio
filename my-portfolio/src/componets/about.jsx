@@ -1,5 +1,5 @@
 import React from "react";
-import monty from "../assets/monty.png";
+import Monty from "../assets/monty.png";
 
 const About = () => {
     return (
@@ -16,17 +16,12 @@ const About = () => {
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
-        <img src="monty.png" height="400" />
+          <img src={Monty} alt="logo" style={{ width: "400px" }} />
           </div>
           <div>
             <p>
-            I am a 26 year old North Carolina native. I moved to Charlotte 4 years ago to gain experince 
-            as the sales director for a merchant services start up. I take pride in being a data-driven and solution oriented sales professional 
-            with over 8 years of direct sales experience and five years of management experience. Advanced experience building and strengthening 
-            a team of sales professionals to provide unique campaigns that reach target audiences and engages users. Strong and adaptable manager 
-            looking to bring my leadership skills to a new team of driven employees.
-        In my personal time I enjoy hiking with my dog, Oliver. I am also an avid equestrian and show on the 'AA' hunter/jumper circuit with my two horses,
-         Titus and Monty. I am currently enrolled in a full stack course through UNCC where I plan to make a career change in 2022.
+            I am a 27 year old North Carolina native. I made the move to Charlotte 4 years ago where I gained professional experience at a merchant services start up. It was during my time there that I discovered my passion for coding and knew it was a career I wanted to pursue. To create software that improves processes and allows people to focus on the job at hand is exciting. Solving day-to-day issues with innovative software is fascinating and at the core of what I want to achieve with anyone I work with. I take pride in being a well-rounded team player with over 8 years of direct sales experience and 5 years of management experience. I am have enjoyed leveraging these skills during my time at UNCC and aim to continue helping businesses!
+        In my personal life I enjoy being active with my loyal companion, Oliver, who is lovingly known as “white dog”. I am also an avid equestrian and compete on the 'AA' hunter/jumper circuit with my young horse, Monty. 
             </p>
           </div>
         </div>
