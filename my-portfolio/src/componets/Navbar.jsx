@@ -10,7 +10,7 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
     return (
-        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[rgb(16,20,26)] text-gray-300">
+        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[rgb(31,40,51)] text-pink-300">
             <div>
                 <img src={oliverlogo} alt="logo" style={{ width: "75px" }} />
             </div>
@@ -29,7 +29,7 @@ const Navbar = () => {
                 </li>
                 <li className="hover:text-[#3faec1] hover:scale-105">
                     <Link to="projects" smooth={true} duration={500}>
-                        Projects
+                        Work
                     </Link>
                 </li>
                 <li className="hover:text-[#3faec1] hover:scale-105">
@@ -56,25 +56,6 @@ const Navbar = () => {
                 <li className="py-6 text-4xl">Projects</li>
                 <li className="py-6 text-4xl">Contact</li>
             </ul>
-
-
-            <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
-                <ul>
-                    <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[rgb(10,102,194)]">
-                        <a className="flex justify-between items-center w-full text-gray-300" target="_blank" href="https://www.linkedin.com/in/sarah-thompson-0b9234191/">LinkedIn<FaLinkedin size={30} /></a>
-                    </li>
-                    <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
-                        <a className="flex justify-between items-center w-full text-gray-300" target="_blank" href="https://github.com/ScottieTee">Github<FaGithub size={30} /></a>
-                    </li>
-                    <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
-                        <a className="flex justify-between items-center w-full text-gray-300" target="_blank" href="mailto:sscotthompson@gmail.com">Email<HiOutlineMail size={30} /></a>
-                    </li>
-                    <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
-                        <a className="flex justify-between items-center w-full text-gray-300" href="#">Resume<BsFillPersonLinesFill size={30} /></a>
-                    </li>
-                </ul>
-            </div>
-
         </div>
     );
 };

@@ -3,6 +3,7 @@ import Hero from './componets/hero';
 import Contact from './componets/contact';
 import About from './componets/about';
 import Projects from './componets/projects';
+import "./app.css";
 
 function App() {
   return (
@@ -10,8 +11,8 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <Contact />
       <Projects />
+      <Contact />
     </div>
   );
 }
