@@ -20,7 +20,7 @@ const Hero = () => {
                             I’ve always been someone who has both a creative and a logical side. When I discovered full-stack development, I realized it would be the perfect fit. I don’t think people should settle for generic applications or forego their overall vision due to dated programming restraints. I could use my creative side to design and my logical side to code. As a bonus, being both a designer and developer allows me to make sure no detail is lost in translation. Take a look at some of my work             </p>
                         <div>
                             <Link to="projects" smooth={true} duration={700}>
-                                <button className="text-white group border-2 px-6 py-2 flex items-center hover:bg-[#3faec1] hover:border-[#3faec1] duration-300">
+                                <button className="text-white group border-2 px-6 py-2 flex items-center hover:bg-[#C90076] hover:border-[#3faec1] duration-300">
                                     View Work
                                     <span className="group-hover:rotate-90 duration-300">
                                         <HiArrowNarrowRight className="ml-3" />
