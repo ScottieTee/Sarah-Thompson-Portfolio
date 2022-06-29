@@ -20,12 +20,12 @@ const Projects = () => {
               className="shadow-lg shadow-[rgb(15,15,15)] group container rounded-md flex justify-center items-center mx-auto project-div"
             >
               {/* Hover */}
-              <div className="opacity-0 group-hover:opacity-100 text-center">
+              <div className="opacity-0 group-hover:opacity-100 text-center text-[rgb(31,40,51)]">
                 <span className="text-2xl font-bold text-[rgb(31,40,51)] tracking-wide">
-                  Interactive Front-End Application
+                  Adopt A Pet
                 </span>
                 <p>
-                  Search for adoptable pets in your area{" "}
+                  Interactive Front-End application{" "}
                 </p>
                 <div className="pt-8 text-center">
                   <a
