@@ -3,7 +3,7 @@ import oliverlogo from "../assets/oliverlogo.png";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -18,7 +18,7 @@ const Navbar = () => {
 
             <ul className="hidden md:flex">
                 <li className="hover:text-[#3faec1] hover:scale-105">
-                    <Link to="hero" smooth={true} duration={500}>
+                    <Link to="home" smooth={true} duration={500}>
                         Home
                     </Link>
                 </li>
@@ -28,8 +28,13 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className="hover:text-[#3faec1] hover:scale-105">
-                    <Link to="projects" smooth={true} duration={500}>
+                    <Link to="work" smooth={true} duration={500}>
                         Work
+                    </Link>
+                </li>
+                <li className="hover:text-[#3faec1] hover:scale-105">
+                    <Link to="tech" smooth={true} duration={500}>
+                        Technology
                     </Link>
                 </li>
                 <li className="hover:text-[#3faec1] hover:scale-105">
