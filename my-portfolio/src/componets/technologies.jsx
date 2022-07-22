@@ -13,7 +13,7 @@ const Tech = () => {
             </div>
           <div className= "text-white text-center">
             <p>
-            Below are some of the technologies I've previously worked with. Of course, my stack isn't limited to just what is listed here. As the development world is an ever changing environment, I continue to seek out learning opportunities through new languages and tools.  
+            Below are some of the technologies I've previously worked with. Of course, my stack isn't limited to just what is listed here. I take pride in continuing to learn every day...As the development world is an ever changing environment, I continue to seek out learning opportunities through new languages and tools.  
             </p>
           </div>
            
@@ -23,3 +23,6 @@ const Tech = () => {
   };
 
 export default Tech;
+
+//html
+//css mongodb mongoose node express tailwindreactapollo 

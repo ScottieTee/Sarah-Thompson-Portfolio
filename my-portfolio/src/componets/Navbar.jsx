@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import oliverlogo from "../assets/oliverlogo.png";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
