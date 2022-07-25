@@ -17,7 +17,7 @@ const Hero = () => {
                         </h2>
                         <p className="text-gray-300 py-4 max-w-[700px]"></p>
                         <p className="text-gray-300 py-4 max-w-[700px]">
-                            I’ve always been someone who has both a creative and a logical side. When I discovered full-stack development, I realized it would be the perfect fit. I don’t think people should settle for generic applications or forego their overall vision due to dated programming restraints. I could use my creative side to design and my logical side to code. As a bonus, being both a designer and developer allows me to make sure no detail is lost in translation. Take a look at some of my work             </p>
+                            I’ve always been someone who has both a creative and a logical side. When I discovered full-stack development, I realized it would be the perfect fit. I could use my creative side to design and my logical side to code. As a bonus, being both a designer and developer allows me to make sure no detail is lost in translation. I don’t think people should settle for generic applications or forego their overall vision due to dated programming restraints. Take a look at some of my work             </p>
                         <div className= "flex flex-row py-4 justify-around">
                             <div>
                             <Link to="/work" smooth={true} duration={700}>

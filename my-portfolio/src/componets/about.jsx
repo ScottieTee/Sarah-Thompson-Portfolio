@@ -14,7 +14,7 @@ const About = () => {
           </div>
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-          <div className="sm:text-right text-4xl font-bold">
+          <div className="sm:text-right text-4xl font-bold pt-12">
           <img src={Monty} alt="logo" style={{ width: "400px" }} />
           </div>
           <div>
