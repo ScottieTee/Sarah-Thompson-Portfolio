@@ -1,5 +1,7 @@
 import React from "react";
-import FAP from '../assets/petfinder.png';
+import Findpet from '../assets/adoptapet.png';
+import Workday from '../assets/workday.png';
+import Notes from '../assets/notetaker.png';
 
 const Projects = () => {
     return (
@@ -16,13 +18,13 @@ const Projects = () => {
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
             {/* Grid */}
             <div
-              style={{ backgroundImage: `url(${FAP})` }}
-              className="shadow-lg shadow-[rgb(15,15,15)] group container rounded-md flex justify-center items-center mx-auto project-div"
+              style={{ backgroundImage: `url(${Findpet})` }}
+              className="object-contain shadow-lg shadow-[rgb(15,15,15)] group container rounded-md flex justify-center items-center mx-auto project-div"
             >
               {/* Hover */}
               <div className="opacity-0 group-hover:opacity-100 text-center text-[rgb(31,40,51)]">
                 <span className="text-2xl font-bold text-[rgb(31,40,51)] tracking-wide">
-                  Adopt A Pet
+                  Find A Pet
                 </span>
                 <p>
                   Interactive Front-End application{" "}
@@ -48,7 +50,7 @@ const Projects = () => {
               </div>
             </div>
             <div
-              style={{ backgroundImage: `url(${FAP})` }}
+              style={{ backgroundImage: `url(${Notes})` }}
               className="shadow-lg shadow-[rgb(15,15,15)] group container rounded-md flex justify-center items-center mx-auto project-div"
             >
               {/* Hover */}
@@ -80,7 +82,7 @@ const Projects = () => {
               </div>
             </div>
             <div
-              style={{ backgroundImage: `url(${FAP})` }}
+              style={{ backgroundImage: `url(${Workday})` }}
               className="shadow-lg shadow-[rgb(15,15,15)] group container rounded-md flex justify-center items-center mx-auto project-div"
             >
               {/* Hover */}

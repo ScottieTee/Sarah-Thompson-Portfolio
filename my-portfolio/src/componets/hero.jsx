@@ -16,7 +16,7 @@ const Hero = () => {
                             Full-stack developer
                         </h2>
                         <p className="text-gray-300 py-4 max-w-[700px]"></p>
-                        <p className="text-gray-300 py-4 max-w-[700px]">
+                        <p className="text-gray-300 py-4 max-w-[700px] pr-6">
                             I’ve always been someone who has both a creative and a logical side. When I discovered full-stack development, I realized it would be the perfect fit. I could use my creative side to design and my logical side to code. As a bonus, being both a designer and developer allows me to make sure no detail is lost in translation. I don’t think people should settle for generic applications or forego their overall vision due to dated programming restraints. Take a look at some of my work             </p>
                         <div className= "flex flex-row py-4 justify-around">
                             <div>
@@ -41,7 +41,7 @@ const Hero = () => {
                         </div>
                         </div>
                     </div>
-                    <div><img class="float-right pl-6" src={Me} alt="logo" style={{ width: "300px" }} /></div>
+                    <div><img className="float-right rounded-lg " src={Me} alt="logo" style={{ width: "300px" }} /></div>
                 </div>
             </div>
         </div>

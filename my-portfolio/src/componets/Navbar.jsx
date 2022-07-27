@@ -10,7 +10,7 @@ const Navbar = () => {
     return (
         <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[rgb(31,40,51)] text-pink-300">
             <div>
-                <img src={oliverlogo} alt="logo" style={{ width: "75px" }} />
+                <img className="rounded-lg" src={oliverlogo} alt="logo" style={{ width: "75px" }} />
             </div>
 
 
