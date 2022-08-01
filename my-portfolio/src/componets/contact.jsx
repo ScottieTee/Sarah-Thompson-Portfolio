@@ -15,7 +15,7 @@ const Contact = () => {
             </div>
           <div className= "text-white text-center">
             <p>
-            I love collaborating with people, while I don't have time to take on every project I would love to dicuss your vision.
+            I love collaborating with people on new projects, I would love to dicuss your vision.
             Let's chat! 
             </p>
           </div>

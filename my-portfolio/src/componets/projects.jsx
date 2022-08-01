@@ -1,7 +1,7 @@
 import React from "react";
-import Findpet from '../assets/adoptapet.png';
-import Workday from '../assets/workday.png';
-import Notes from '../assets/notetaker.png';
+import LightPink from '../assets/Pets.png';
+import DarkPink from '../assets/darkpink.png';
+
 
 const Projects = () => {
     return (
@@ -18,8 +18,8 @@ const Projects = () => {
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
             {/* Grid */}
             <div
-              style={{ backgroundImage: `url(${Findpet})` }}
-              className="object-contain shadow-lg shadow-[rgb(15,15,15)] group container rounded-md flex justify-center items-center mx-auto project-div"
+              style={{ backgroundImage: `url(${LightPink})` }}
+              className="place-content-center shadow-lg shadow-[rgb(15,15,15)] group container rounded-md flex justify-center items-center mx-auto project-div"
             >
               {/* Hover */}
               <div className="opacity-0 group-hover:opacity-100 text-center text-[rgb(31,40,51)]">
@@ -50,7 +50,39 @@ const Projects = () => {
               </div>
             </div>
             <div
-              style={{ backgroundImage: `url(${Notes})` }}
+              style={{ backgroundImage: `url(${DarkPink})` }}
+              className="shadow-lg shadow-[rgb(15,15,15)] group container rounded-md flex justify-center items-center mx-auto project-div"
+            >
+             {/* Hover */}
+             <div className="opacity-0 group-hover:opacity-100 text-center text-[rgb(31,40,51)]">
+                <span className="text-2xl font-bold text-[rgb(31,40,51)] tracking-wide">
+                  StableTech
+                </span>
+                <p>
+                  MERN application{" "}
+                </p>
+                <div className="pt-8 text-center">
+                  <a
+                    href="https://stabletech.herokuapp.com/#/home"
+                    target="_blank"
+                  >
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                      Check it out
+                    </button>
+                  </a>
+                  <a
+                    href="https://github.com/ScottieTee/StableTech"
+                    target="_blank"
+                  >
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                      Code
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              style={{ backgroundImage: `url(${LightPink})` }}
               className="shadow-lg shadow-[rgb(15,15,15)] group container rounded-md flex justify-center items-center mx-auto project-div"
             >
               {/* Hover */}
@@ -82,7 +114,7 @@ const Projects = () => {
               </div>
             </div>
             <div
-              style={{ backgroundImage: `url(${Workday})` }}
+              style={{ backgroundImage: `url(${DarkPink})` }}
               className="shadow-lg shadow-[rgb(15,15,15)] group container rounded-md flex justify-center items-center mx-auto project-div"
             >
               {/* Hover */}
