@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaGoogleDrive } from "react-icons/fa";
 import { HiOutlineMail } from 'react-icons/hi';
 
 
@@ -19,6 +19,7 @@ const Contact = () => {
             Let's chat! 
             </p>
           </div>
+            <a className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center" target="_blank" href="https://docs.google.com/document/d/17Ktq0yUSlJXg5lrDWvDxI1ypvRMHquXCd0Tqt65nJ0o/edit?usp=sharing/sarah-thompson-0b9234191/">Resume<FaGoogleDrive size={30} /></a>
             <a className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center" target="_blank" href="https://www.linkedin.com/in/sarah-thompson-0b9234191/">LinkedIn<FaLinkedin size={30} /></a>
             <a className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center" target="_blank" href="https://github.com/ScottieTee">Github<FaGithub size={30} /></a>
             <a className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center" target="_blank" href="mailto:sscotthompson@gmail.com">Email<HiOutlineMail size={30} /></a>
